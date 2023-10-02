@@ -43,7 +43,7 @@ chmod +x batch.sh
 To generate images for the allocation of node and link resources with dot files, execute:
 
 ```bash
+python toDot.py
 
-pip install -r requirements.txt
 ```
 
