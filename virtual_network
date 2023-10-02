@@ -1,0 +1,37 @@
+// Virtual Network
+digraph {
+	rankdir=TB
+	v_0 [label="Virtual Node 0
+Physical Node 30" color=blue]
+	v_1 [label="Virtual Node 1
+Physical Node 45" color=blue]
+	v_2 [label="Virtual Node 2
+Physical Node 21" color=blue]
+	v_3 [label="Virtual Node 3
+Physical Node 82" color=blue]
+	v_4 [label="Virtual Node 4
+Physical Node 69" color=blue]
+	v_5 [label="Virtual Node 5
+Physical Node 52" color=blue]
+	v_6 [label="Virtual Node 6
+Physical Node 4" color=blue]
+	v_7 [label="Virtual Node 7
+Physical Node 88" color=blue]
+	v_1 -> v_0 [color="#e34825"]
+	v_2 -> v_0 [color="#4f5879"]
+	v_2 -> v_1 [color="#34e6f0"]
+	v_3 -> v_0 [color="#b373e3"]
+	v_3 -> v_1 [color="#2039c2"]
+	v_3 -> v_2 [color="#f235c0"]
+	v_4 -> v_0 [color="#149ba6"]
+	v_4 -> v_1 [color="#733296"]
+	v_4 -> v_3 [color="#d9be5f"]
+	v_5 -> v_0 [color="#db392b"]
+	v_5 -> v_1 [color="#56e7ee"]
+	v_5 -> v_2 [color="#f74415"]
+	v_5 -> v_4 [color="#dd7fb8"]
+	v_6 -> v_1 [color="#46f8d4"]
+	v_6 -> v_4 [color="#3475b3"]
+	v_7 -> v_0 [color="#f6b395"]
+	v_7 -> v_2 [color="#713d38"]
+}
